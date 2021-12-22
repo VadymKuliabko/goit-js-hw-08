@@ -36,3 +36,6 @@ function onFormSubmit(event) {
   event.currentTarget.reset();
   localStorage.removeItem(key);
 }
+
+console.log(formData.email);
+console.log(formData.message);
